@@ -1,0 +1,264 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+    
+  
+}
+.container{
+    height:auto;
+    width:100%;
+    border:5px solid black;
+    background-color: rgb(255, 255, 255);
+}
+.smallnavbar{
+    height:100%;
+    width:90%;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div1{
+    height:100%;
+    width:33%;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    gap:15px;
+}
+.span-1{
+    font-size: 2.5rem;
+}
+.span-2{
+    font-size: 18px;
+    font-weight: 600;
+}
+.div2{
+    height:100%;
+    width:33%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.div2 a{
+    text-decoration: none;
+    font-weight: 600;
+    height:70%;
+    width:20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    font-weight: 600;
+}
+.div2 a:hover{
+    background-color:rgb(91,101,147);
+    color:white;
+    border-radius:7px;
+}
+.div3{
+    height:100%;
+    width:33%;
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    gap:5px;
+}
+.btn{
+    height:40px;
+    width:35%;
+    border-radius:8px;
+    border:none;
+}
+.btn-1{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+}
+.btn-2{
+    width:40%;
+    font-weight:400;
+    background-color: black;
+    color:white;
+}
+.bar{
+    display:none
+}
+/* -----------------navbar end--------------------- */
+
+.section-1{
+    height:auto;
+    width:100%;
+    margin-top:40px;
+}
+.small-section-1{
+    width:81%;
+    margin:auto;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    gap:10px;
+}
+.div4{
+   height:50px;
+   width:50px;
+   display:flex;
+   justify-content:center;
+   align-items: center;
+   border-radius:17px;
+   background-color: black;
+   color:white;
+   border:none;
+}
+#para-1{
+    font-size:24px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+#para-2{
+    font-size: 14px;
+    font-weight: 500;
+}
+/* -----------------section-1 end------------------ */
+
+.main-section{
+    margin-top:60px;
+    height:auto;
+    width:100%;
+}
+.main{
+    height:auto;
+    width:83%;
+    margin:auto;
+    display:flex;
+   
+}
+.leftside{
+    height:auto;
+    width:50%;
+    
+}
+.upper{
+    height:120px;
+    width:70%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.lower{
+    display:flex;
+    margin-top:50px;
+}
+.businesscard{
+    height:auto;
+    width:50%;
+    padding-inline:10px;
+}
+.businesscard p{
+    margin-top:7px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.arrow{
+    height:30px;
+    width:15%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color:white;
+    border-radius:10px;
+    margin-top:15px;
+}
+.arrow i{
+    rotate:30deg;
+}
+
+.corporatecard{
+    height:auto;
+    width:50%;
+    padding-inline:10px;
+}
+.corporatecard p{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 7px;
+}
+
+.rightside{
+    width:50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+/* --------------main-section end---------------------- */
+.disnep{
+    height:auto;
+    width:92%;
+    margin:auto;
+    display:flex;
+    margin-top:40px;
+    position:relative;
+    top:30px;
+}
+.company1{
+    width:60%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#img1{
+    width:14%;
+}
+#img2{
+   width:16%
+}
+#img3{
+    width:20%;
+}
+.company2{
+    width:40%;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+#img4{
+    width:24%;
+}
+#img5{
+    width:26%;
+    height:70%;
+}
+/* ---------company section end--------------- */
+
+.footer{
+    height:60px;
+    width:100%;
+    margin-top:20px;
+    background-color: rgb(114,115,220);
+}
+.footer-ul{
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    font-weight: 700;
+}
+.astrick{
+    font-size: 2rem;
+    padding-top:10px;
+}
+.arrow-up{
+    rotate:30deg;
+    font-size:20px;
+}
+.app{
+    display:none;
+}
